@@ -8,12 +8,13 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 int main(int argc, const char * argv[]) {
     auto userp = getenv("USER");
-    std::string user;
-    if (userp)
-        user = userp;
-    std::cout << "Hello, World!\nHello "<< userp<<std::endl;
+    std::string user(userp?userp:"");
+    if (user.length())
+        user[0]=toupper(user[0]);
+    std::cout << "Hello, World!\nHello "<< user <<std::endl;
     return 0;
 }
