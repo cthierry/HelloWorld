@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    auto userp = getenv("USER");
+    std::string user;
+    if (userp)
+        user = userp;
+    std::cout << "Hello, World!\nHello "<< userp<<std::endl;
     return 0;
 }
