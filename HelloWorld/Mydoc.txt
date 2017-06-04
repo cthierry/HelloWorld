@@ -2,31 +2,7 @@ Ceci est une petit texte pour me familiariser avec l'éditeur Xcode d'Apple, un 
 développer du code au XXIe siècle et sans pour autant laisser regretter ses concurrents.
 
 Ceci remplace le petit tutorial que l'on trouve traditionellement pour EMACS, l'autre grand rival
-dans l'écitio de code, mais qui lui au moins est multiplateforme.
-
-If(ah inférieur happy) stop and
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+l'édition de code, mais qui lui au moins est multiplateforme.
 
 
 
