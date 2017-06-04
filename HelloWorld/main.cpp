@@ -16,6 +16,6 @@ int main(int argc, const char * argv[]) {
     std::string user(userp?userp:"");
     if (user.length())
         user[0]=toupper(user[0]);
-    std::cout << "Hello, World!\nHello "<< user <<std::endl;
+    std::cout << "Hello, World and hello "<< user <<std::endl;
     return 0;
 }
